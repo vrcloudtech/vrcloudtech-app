@@ -1,0 +1,44 @@
+@import url("app.css");
+@import url("https://fonts.googleapis.com/css?family=Assistant:300,400,600,700&display=swap");
+body {
+  background: #f0f0f0; }
+
+.primary-bg {
+  background: #3F4F5F;
+  color: white; }
+  .primary-bg ul {
+    color: white; }
+    .primary-bg ul li a {
+      border-color: white;
+      color: white; }
+
+.secondary-bg {
+  background: #69829b;
+  color: white; }
+  .secondary-bg ul {
+    color: white; }
+    .secondary-bg ul li a {
+      border-color: white;
+      color: white; }
+
+.white-bg {
+  background: white; }
+
+/* Typography */
+h1, h2, h3 {
+  font-family: 'Assistant', sans-serif;
+  font-weight: lighter;
+  color: #5a5a5a;
+  margin: 0; }
+
+p, ul li {
+  font-family: 'Assistant', sans-serif;
+  color: #5a5a5a;
+  margin: 0;
+  margin-bottom: 10px; }
+
+.search-form {
+  background-image: url("//image.ibb.co/i7NbrQ/search_icon_15.png");
+  background-position: 0.625rem 0.625rem;
+  background-repeat: no-repeat;
+  padding: 0.75rem 1.25rem 0.75rem 2rem; }
