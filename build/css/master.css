@@ -6,23 +6,24 @@ body {
 .primary-bg {
   background: #3F4F5F;
   color: white; }
-  .primary-bg ul {
+  .primary-bg ul.accordion-menu li a {
     color: white; }
-    .primary-bg ul li a {
-      border-color: white;
-      color: white; }
 
 .secondary-bg {
-  background: #69829b;
-  color: white; }
-  .secondary-bg ul {
+  background: #69829b; }
+  .secondary-bg ul.accordion-menu li a {
     color: white; }
-    .secondary-bg ul li a {
-      border-color: white;
-      color: white; }
+  .secondary-bg ul.accordion-menu .menu .is-active > a {
+    background: rgba(255, 255, 255, 0.5);
+    color: #69829b; }
 
 .white-bg {
   background: white; }
+
+.accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle) > a {
+  color: gainsboro;
+  font-size: .8rem;
+  text-transform: uppercase !important; }
 
 /* Typography */
 h1, h2, h3 {

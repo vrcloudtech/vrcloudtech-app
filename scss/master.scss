@@ -4,31 +4,27 @@
 
 
 // ESSENTIAL
-body {background:rgb(240,240,240) }
+body {background:rgb(240,240,240)}
 
 
 // BG HELPERS
 .primary-bg {
   background:#3F4F5F;
   color:white;
-  ul {
+  ul.accordion-menu li a {
     color:white;
-    li a {
-      border-color:white;
-      color:white;
-    }
   }
 }
 
 .secondary-bg {
   background:lighten(#3F4F5F, 20);
-  color:white;
-  ul {
+  // color:white;
+  ul.accordion-menu li a {
     color:white;
-    li a {
-      border-color:white;
-      color:white;
-    }
+  }
+  ul.accordion-menu .menu .is-active > a {
+    background:rgba(255, 255, 255, .5);
+    color:lighten(#3F4F5F, 20);
   }
 }
 
@@ -36,7 +32,12 @@ body {background:rgb(240,240,240) }
   background:white;
 }
 
-
+// ACCORDIAN HELPERS
+.accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle) > a {
+  color:rgb(220,220,220);
+  font-size: .8rem;
+  text-transform: uppercase!important;
+}
 
 /* Typography */
 h1,h2,h3 {

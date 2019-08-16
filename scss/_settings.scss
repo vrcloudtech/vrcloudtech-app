@@ -91,7 +91,7 @@ $global-weight-normal: normal;
 $global-weight-bold: bold;
 $global-radius: 0;
 $global-menu-padding: 0.7rem 1rem;
-$global-menu-nested-margin: 1rem;
+$global-menu-nested-margin: 0rem;
 $global-text-direction: ltr;
 $global-flexbox: true;
 $global-prototype-breakpoints: false;
@@ -234,14 +234,15 @@ $accordion-content-border: 1px solid $light-gray;
 $accordion-content-color: $body-font-color;
 $accordion-content-padding: 1rem;
 
+
 // 8. Accordion Menu
 // -----------------
 
-$accordionmenu-padding: $global-menu-padding;
+$accordionmenu-padding: .6rem;
 $accordionmenu-nested-margin: $global-menu-nested-margin;
 $accordionmenu-submenu-padding: $accordionmenu-padding;
 $accordionmenu-arrows: true;
-$accordionmenu-arrow-color: white;
+$accordionmenu-arrow-color: rgb(220,220,220);
 $accordionmenu-item-background: null;
 $accordionmenu-border: null;
 $accordionmenu-submenu-toggle-background: null;
