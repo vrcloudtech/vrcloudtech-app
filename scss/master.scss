@@ -1,0 +1,63 @@
+// IMPORTS
+@import url('app.css');
+@import url('https://fonts.googleapis.com/css?family=Assistant:300,400,600,700&display=swap');
+
+
+// ESSENTIAL
+body {background:rgb(240,240,240)}
+
+
+// BG HELPERS
+.primary-bg {
+  background:#3F4F5F;
+  color:white;
+  ul {
+    color:white;
+    li a {
+      border-color:white;
+      color:white;
+    }
+  }
+}
+
+.secondary-bg {
+  background:lighten(#3F4F5F, 20);
+  color:white;
+  ul {
+    color:white;
+    li a {
+      border-color:white;
+      color:white;
+    }
+  }
+}
+
+.white-bg {
+  background:white;
+}
+
+
+
+/* Typography */
+h1,h2,h3 {
+	font-family: 'Assistant', sans-serif;
+	font-weight: lighter;
+	color:rgb(90,90,90);
+	margin:0;
+}
+
+p, ul li {
+	font-family: 'Assistant', sans-serif;
+	color:rgb(90,90,90);
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+
+// Form HELPERS
+.search-form {
+  background-image:url('//image.ibb.co/i7NbrQ/search_icon_15.png');
+  background-position: 0.625rem 0.625rem;
+  background-repeat: no-repeat;
+  padding: 0.75rem 1.25rem 0.75rem 2rem;
+}
