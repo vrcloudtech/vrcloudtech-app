@@ -101,3 +101,11 @@ p, ul li {
 .margin-top {
   margin-top: 50px!important;
 }
+
+// TABLE HELPERS
+table {
+  color:rgb(80,80,80);
+  tbody tr td i {
+    margin-right:5px;
+  }
+}
