@@ -1,7 +1,8 @@
 @import url("app.css");
 @import url("https://fonts.googleapis.com/css?family=Assistant:300,400,600,700&display=swap");
 body {
-  background: #f0f0f0; }
+  background: #f0f0f0;
+  overflow: hidden; }
 
 .primary-bg {
   background: #3F4F5F;
@@ -59,3 +60,6 @@ p, ul li {
   background-position: 0.625rem 0.625rem;
   background-repeat: no-repeat;
   padding: 0.75rem 1.25rem 0.75rem 2rem; }
+
+.margin-top {
+  margin-top: 50px !important; }

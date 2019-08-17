@@ -137,6 +137,14 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/includes/elements/body.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/includes/elements/body.php",
+		"oF": 0
+		},
 	"/includes/elements/footer.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -153,6 +161,14 @@
 		"oAP": "/build/includes/elements/header.php",
 		"oF": 0
 		},
+	"/includes/elements/resources.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/includes/elements/resources.php",
+		"oF": 0
+		},
 	"/includes/elements/searchbar.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -167,6 +183,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/build/includes/elements/sidebar.php",
+		"oF": 0
+		},
+	"/includes/elements/tabs.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/includes/elements/tabs.php",
 		"oF": 0
 		},
 	"/includes/essential/footer.php": {
