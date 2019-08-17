@@ -3,6 +3,14 @@
 @import url('https://fonts.googleapis.com/css?family=Assistant:300,400,600,700&display=swap');
 
 
+// MIXINS
+@mixin headings {
+    h1, h2, h3,
+    h4, h5, h6 {
+        @content;
+    }
+}
+
 // ESSENTIAL
 body {background:rgb(240,240,240)}
 
@@ -32,6 +40,15 @@ body {background:rgb(240,240,240)}
   background:white;
 }
 
+// BLOCKS
+.footer {
+  background:rgb(40,40,40);
+  @include headings {
+    color:rgb(200,200,200);
+  }
+}
+
+
 // ACCORDIAN HELPERS
 .accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle) > a {
   color:rgb(220,220,220);
@@ -39,12 +56,26 @@ body {background:rgb(240,240,240)}
   text-transform: uppercase!important;
 }
 
+// MENU Helpers
+.top-bar ul.menu.dropdown li {
+  a {
+    color:white;
+  }
+  ul.submenu li a {
+    color:red;
+  }
+}
+
+li a i {
+  margin-right:5px;
+}
+
 /* Typography */
-h1,h2,h3 {
-	font-family: 'Assistant', sans-serif;
-	font-weight: lighter;
-	color:rgb(90,90,90);
-	margin:0;
+@include headings {
+  font-family: 'Assistant', sans-serif;
+  font-weight: lighter;
+  color:rgb(90,90,90);
+  margin:0;
 }
 
 p, ul li {

@@ -20,13 +20,29 @@ body {
 .white-bg {
   background: white; }
 
+.footer {
+  background: #282828; }
+  .footer h1, .footer h2, .footer h3,
+  .footer h4, .footer h5, .footer h6 {
+    color: #c8c8c8; }
+
 .accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle) > a {
   color: gainsboro;
   font-size: .8rem;
   text-transform: uppercase !important; }
 
+.top-bar ul.menu.dropdown li a {
+  color: white; }
+
+.top-bar ul.menu.dropdown li ul.submenu li a {
+  color: red; }
+
+li a i {
+  margin-right: 5px; }
+
 /* Typography */
-h1, h2, h3 {
+h1, h2, h3,
+h4, h5, h6 {
   font-family: 'Assistant', sans-serif;
   font-weight: lighter;
   color: #5a5a5a;

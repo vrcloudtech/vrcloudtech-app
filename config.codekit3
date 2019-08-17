@@ -137,12 +137,60 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/index.html": {
+	"/includes/elements/footer.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/build/index.html",
+		"oAP": "/build/includes/elements/footer.php",
+		"oF": 0
+		},
+	"/includes/elements/header.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/includes/elements/header.php",
+		"oF": 0
+		},
+	"/includes/elements/searchbar.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/includes/elements/searchbar.php",
+		"oF": 0
+		},
+	"/includes/elements/sidebar.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/includes/elements/sidebar.php",
+		"oF": 0
+		},
+	"/includes/essential/footer.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/includes/essential/footer.php",
+		"oF": 0
+		},
+	"/includes/essential/header.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/includes/essential/header.php",
+		"oF": 0
+		},
+	"/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/index.php",
 		"oF": 0
 		},
 	"/js/app.js": {
@@ -233,7 +281,7 @@
 "projectSettings": {
 	"abortBuildOnError": 1,
 	"allowInjectionReloads": 1,
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerEnableIEGrid": 0,
