@@ -10,7 +10,7 @@ include('includes/essential/header.php')
       <?php
       include('includes/elements/sidebar.php');
       ?>
-      <div class="cell medium-10 medium-cell-block-y">
+      <div class="cell medium-10 small-9 cell-block-y">
         <?php
         include('includes/elements/searchbar.php');
         include('includes/elements/body.php');

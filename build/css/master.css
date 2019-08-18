@@ -61,6 +61,10 @@ p, ul li {
   background-repeat: no-repeat;
   padding: 0.75rem 1.25rem 0.75rem 2rem; }
 
+.searchbox {
+  position: absolute;
+  width: 100%; }
+
 .margin-top {
   margin-top: 50px !important; }
 

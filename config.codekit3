@@ -15,6 +15,17 @@
 		"oAP": "/build/build",
 		"oF": 0
 		},
+	"/files/austin-neill-JNvRecQ24Bk-unsplash.jpg": {
+		"ft": 16384,
+		"iS": 1832900,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/files/austin-neill-JNvRecQ24Bk-unsplash.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/files/favicons/android-chrome-192x192.png": {
 		"ft": 32768,
 		"iS": 37475,
@@ -136,6 +147,14 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"/includes/elements/activity.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/includes/elements/activity.php",
+		"oF": 0
 		},
 	"/includes/elements/body.php": {
 		"cB": 0,

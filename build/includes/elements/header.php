@@ -1,4 +1,4 @@
-<div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
+<div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium" >
   <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
   <div class="title-bar-title">Menu</div>
 </div>
